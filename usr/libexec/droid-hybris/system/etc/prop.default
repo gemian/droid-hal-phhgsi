@@ -1,0 +1,42 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.actionable_compatible_property.enabled=false
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+tombstoned.max_tombstone_count=50
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-minidebuginfo=true
+debug.atrace.tags.enableflags=0
+ro.build.version.sdk=28
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.release=9
+ro.build.version.security_patch=2019-03-05
+ro.adb.secure=0
+ro.logd.auditd=true
+persist.sys.usb.config=adb
+ro.cust.cdrom=/dev/null
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Mon 23 Sep 2019 09:06:28 PM CEST
+ro.bootimage.build.date.utc=1569265588
+ro.bootimage.build.fingerprint=Android/treble_arm64_bvN/phhgsi_arm64_ab:9/PQ2A.190305.002/nekit09232106:userdebug/test-keys
+ro.build.fingerprint=Android/treble_arm64_bvN/phhgsi_arm64_ab:9/PQ2A.190305.002/nekit09232106:userdebug/test-keys

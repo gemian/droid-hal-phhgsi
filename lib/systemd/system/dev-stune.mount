@@ -1,0 +1,20 @@
+[Unit]
+Description=Droid mount for /dev/stune
+Before=local-fs.target systemd-modules-load.service
+
+[Mount]
+What=none
+Where=/dev/stune
+Type=cgroup
+Options=nodev,noexec,nosuid,schedtune
+# Options had SELinux context option:  
+
+# Default is 90 which makes mount period too long in case of
+# errors so drop it down a notch.
+TimeoutSec=10
+
+[Install]
+WantedBy=local-fs.target
+
+# From ./out/target/product/cosmopda/root/init.rc :
+#     mount cgroup none /dev/stune nodev noexec nosuid schedtune

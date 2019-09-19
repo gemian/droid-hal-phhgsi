@@ -1,0 +1,1 @@
+config.mount dev-cg2_bpf.mount dev-cpuctl.mount dev-cpuset.mount dev-stune.mount mnt-vendor-nvcfg.mount mnt-vendor-nvdata.mount mnt-vendor-persist.mount mnt-vendor-protect_f.mount mnt-vendor-protect_s.mount sys-fs-bpf.mount sys-fs-pstore.mount system.mount system_root.mount vendor.mount
