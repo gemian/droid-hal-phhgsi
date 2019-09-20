@@ -1,0 +1,14 @@
+Source: droid-hal-cosmopda
+Section: kernel
+Priority: optional
+Maintainer: TheKit <nekit1000@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/gemian/droid-hal-cosmopda-bin.git
+
+Package: droid-hal-cosmopda
+Architecture: arm64
+Depends:
+Description: mer-hybris adaptation for Cosmo Communicator
+ Contains patched Android libraries and scripts to start Android services for
+ libhybris-based hardware adaptation

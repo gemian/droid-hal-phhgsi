@@ -1,0 +1,8 @@
+lib/*
+sbin/*
+usr/*
+default.prop
+init.environ.rc
+init.extraenv.armeabi-v7a.rc
+init.rc
+ueventd.rc
